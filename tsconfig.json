@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "lib": ["es2016","dom"],
+        "noImplicitAny": false,
+        "strict": true,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "watch": true
+    },
+    "include": [ "*.ts" ]
+}
