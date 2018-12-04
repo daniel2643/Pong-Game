@@ -80,7 +80,8 @@ There’re 5 parts in the pong function. They’re
  ball move animation: 
 simulate how the ball moves in the canvas
 There’re 3 cases in the ball move animation.
-'''
+
+```
 Case 1: 
 When the ball hits the up-boundary or bottom-boundary, bounce
 
@@ -95,7 +96,7 @@ When the ball located in the left paddle areas, bounce (i.e. change the directio
 
 Case 3b: 
 When the ball hits the left-boundary, reset the ball that start from left side
-'''
+```
 
  Game mode choice && paddle move: 
 ask key press for user’s choice for game mode
