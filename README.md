@@ -12,7 +12,7 @@ To start the game, which means to trigger the paddles, user should press keys on
 	press key ‘D’: Double Players Mode (both controlled by keyboard)
 	press key ‘M’: Single Player Mode (controlled by mouse)
 
-# Single Player Mode (controlled by keyboard)
+## Single Player Mode (controlled by keyboard)
 User control the right paddle 
 
 •	UP: key ‘P’
@@ -27,7 +27,7 @@ Player 2 control the right paddle
 •	player 2 UP: key ‘P’
 •	player 2 DOWN: key ‘L’ 
 
-# Single Player Mode (controlled by mouse)
+## Single Player Mode (controlled by mouse)
 User control the right paddle by click mouse 
 
 •	UP: move mouse up
@@ -80,15 +80,20 @@ There’re 5 parts in the pong function. They’re
  ball move animation: 
 simulate how the ball moves in the canvas
 There’re 3 cases in the ball move animation.
-### Case 1: When the ball hits the up-boundary or bottom-boundary, bounce
+### Case 1: 
+When the ball hits the up-boundary or bottom-boundary, bounce
 
-### Case 2a: When the ball located in the right paddle areas, bounce (i.e. change the direction of ball by negating xstep)
+### Case 2a: 
+When the ball located in the right paddle areas, bounce (i.e. change the direction of ball by negating xstep)
 
-### Case 2b: When the ball hits the right-boundary, reset the ball
+### Case 2b: 
+When the ball hits the right-boundary, reset the ball
 
-### Case 3a: When the ball located in the left paddle areas, bounce (i.e. change the direction of ball by negating xstep)
+### Case 3a: 
+When the ball located in the left paddle areas, bounce (i.e. change the direction of ball by negating xstep)
 
-### Case 3b: When the ball hits the left-boundary, reset the ball that start from left side
+### Case 3b: 
+When the ball hits the left-boundary, reset the ball that start from left side
 
  Game mode choice && paddle move: 
 ask key press for user’s choice for game mode
