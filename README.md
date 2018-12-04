@@ -18,7 +18,7 @@ User control the right paddle
 •	UP: key ‘P’
 •	DOWN: key ‘L’ 
 
-# Double Players Mode (controlled by keyboard)
+## Double Players Mode (controlled by keyboard)
 Player 1 control the left paddle 
 Player 2 control the right paddle 
 
@@ -80,27 +80,29 @@ There’re 5 parts in the pong function. They’re
  ball move animation: 
 simulate how the ball moves in the canvas
 There’re 3 cases in the ball move animation.
-### Case 1: 
+'''
+Case 1: 
 When the ball hits the up-boundary or bottom-boundary, bounce
 
-### Case 2a: 
+Case 2a: 
 When the ball located in the right paddle areas, bounce (i.e. change the direction of ball by negating xstep)
 
-### Case 2b: 
+Case 2b: 
 When the ball hits the right-boundary, reset the ball
 
-### Case 3a: 
+Case 3a: 
 When the ball located in the left paddle areas, bounce (i.e. change the direction of ball by negating xstep)
 
-### Case 3b: 
+Case 3b: 
 When the ball hits the left-boundary, reset the ball that start from left side
+'''
 
  Game mode choice && paddle move: 
 ask key press for user’s choice for game mode
 after chosen the game mode, simulate the paddles movement
 	        Display real-time scores and results
 
-	More detailed code, please see comments from pong.ts
+------ More detailed code, please see comments from pong.ts
 	
 3.	Extra Functionality
 (1)	Multiple Player Selection Mode
